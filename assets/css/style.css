@@ -8,9 +8,8 @@ footer {
 }
 
 body {
-    background-image: url("../images/stripes.png")
+    background-image: url("../images/stripes.png");
 }
-
 
 /******** Header ********/
 a {
@@ -20,8 +19,13 @@ a {
 
 
 header {
+    position:relative;
     height: 66px;
+    animation-name: top-bottom;
+    animation-duration: .25s;
 }
+
+@keyframes top-bottom{from{top:-300px} to{top:0}}
 
 .spacer {
     padding:20px;
@@ -82,8 +86,9 @@ h3 {
 }
 
 /******** Contact ********/
-textarea {
+#formGroupExampleInput3 {
     height:250px;
+    display:inline-block;
 }
 
 /******** Footer ********/
