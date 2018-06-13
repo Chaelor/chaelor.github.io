@@ -1,0 +1,149 @@
+/********** Global ********/
+footer {
+    position: fixed;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+    bottom:0;
+}
+
+body {
+    background-image: url("../images/stripes.png")
+}
+
+
+/******** Header ********/
+a {
+    color: white;
+}
+
+
+
+header {
+    height: 66px;
+}
+
+.spacer {
+    padding:20px;
+    width:100%;
+}
+
+/******** Nav ********/ 
+
+.navbar-brand {
+    background-color: #4aaaa5;
+}
+
+.navbar {
+    padding:0;
+}
+
+.ml-auto {
+    margin-top: 7px;
+    justify-content: center;
+}
+
+/******** Main Content ********/
+
+.container .row h2 {
+    padding: 10px;
+}
+
+.containerRadius {
+    border-radius: 15px;
+}
+
+.container .row ul {
+    position:relative;
+    left:20px;
+}
+
+
+/******** Portfolio ********/
+.img {
+    position: relative;
+    display:inline-block;
+    padding-left:0;
+    padding: 0 auto;
+}
+
+h3 {
+    position: absolute;
+    top:80%;
+    left:0;
+    width:100%;
+    padding: auto 0;
+    margin: 0;
+    color: white;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    font-size: 1.5em
+}
+
+/******** Contact ********/
+textarea {
+    height:250px;
+}
+
+/******** Footer ********/
+
+footer{
+    position: fixed;
+    bottom:0;
+    padding-top: 15px;
+    border-top: solid 10px;
+    border-color: #4aaaa5;
+}
+
+.push {
+    height:75px;
+}
+
+/******** Responsive ********/
+
+@media only screen and (max-width:989px){
+
+.navbar ul{
+    background-color: white;
+    border: 1px solid #cccccc;
+    z-index: 1;
+    box-shadow: 1px 1px 1px grey;
+    padding-left: 10px;
+    width: 150px;
+}
+
+footer{
+    position: fixed;
+    bottom:0;
+    padding-top: 15px;
+    border-top: solid 10px;
+    border-color: #4aaaa5;
+}
+
+}
+
+
+@media only screen and (max-width:767px) {
+    h3 {
+        position: absolute;
+        top:80%;
+        left:0;
+        width:100%;
+        padding: auto 0;
+        margin: 0;
+        color: white;
+        background-color: #4aaaa5;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        text-align: center;
+        font-size: .75em
+    }
+
+    footer{
+        position: fixed;
+        bottom:0;
+        padding-top: 15px;
+        border-top: solid 10px;
+        border-color: #4aaaa5;
+    }
+} 
