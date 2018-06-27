@@ -64,6 +64,12 @@ header {
 
 
 /******** Portfolio ********/
+
+img{
+    height: 300px;
+    width: 300px;
+}
+
 .img {
     position: relative;
     display:inline-block;
