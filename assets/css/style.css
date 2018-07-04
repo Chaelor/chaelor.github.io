@@ -75,7 +75,7 @@ img{
     padding: 0 auto;
     height:300px;
     width:300px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 5px;
 }
 
