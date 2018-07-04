@@ -75,6 +75,18 @@ img{
     display:inline-block;
     padding-left:0;
     padding: 0 auto;
+    height:300px;
+    width:300px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.img:hover{
+    transform: translateY(-5px);
+}
+
+.img:active{
+    transform: translateY(-2px);
 }
 
 h3 {
