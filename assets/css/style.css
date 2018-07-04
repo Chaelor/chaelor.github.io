@@ -9,30 +9,22 @@ a {
     color: white;
 }
 
-
-
-header {
-    position:relative;
-    height: 66px;
-    animation-name: top-bottom;
-    animation-duration: .25s;
-}
-
-@keyframes top-bottom{from{top:-300px} to{top:0}}
-
 .spacer {
     padding:20px;
     width:100%;
 }
 
 /******** Nav ********/ 
-
+h1 {
+    font-family: 'Kurale', serif;
+}
 .navbar-brand {
     background-color: #4aaaa5;
 }
 
-.navbar {
+.navbar{
     padding:0;
+    font-family: 'Kurale', serif;
 }
 
 .nav-item:hover{
@@ -46,6 +38,10 @@ header {
 }
 
 /******** Main Content ********/
+h2 {
+    margin-left: 30px;
+    font-family: 'Kurale', serif;
+}
 
 .container .row h2 {
     padding: 10px;
@@ -96,7 +92,7 @@ h3 {
     margin: 0;
     color: white;
     background-color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Kurale', serif;
     text-align: center;
     font-size: 1.5em
 }
@@ -118,14 +114,7 @@ footer{
     height:50px;
     text-align: center;
     width: 100%;
-}
-
-footer {
-    position: fixed;
-    height: 50px;
-    text-align: center;
-    width: 100%;
-    bottom:0;
+    font-family: 'Kurale', serif;
 }
 
 .push {
