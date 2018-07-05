@@ -20,11 +20,17 @@ h1 {
 }
 .navbar-brand {
     background-color: #4aaaa5;
+    animation: moveInLeft 1s ease-out;
 }
 
 .navbar{
     padding:0;
     font-family: 'Kurale', serif;
+}
+
+.nav-item {
+    animation: moveInLeftItem 1s ease-out .33s;
+    animation-fill-mode: backwards;
 }
 
 .nav-item:hover{
@@ -37,6 +43,37 @@ h1 {
     justify-content: center;
 }
 
+@keyframes moveInLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80% {
+        transform: translateX(10px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes  moveInLeftItem{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80% {
+        transform: translateX(10px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 /******** Main Content ********/
 h2 {
     margin-left: 30px;
