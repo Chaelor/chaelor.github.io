@@ -193,6 +193,7 @@ nav{
   left: 0;
   width: 100%;
   backface-visibility: hidden; 
+  -webkit-backface-visibility: hidden;
   border-radius: .5rem;
 }
 .back-rotation {
